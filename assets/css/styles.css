@@ -1,0 +1,31 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 10vh;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10vh;
+}
+
+h1 {
+    text-align: center;
+    align-content: center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
