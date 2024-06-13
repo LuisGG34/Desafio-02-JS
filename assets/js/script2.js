@@ -9,7 +9,7 @@ botonVerificar.addEventListener('click', function() {
 
     let sumaContenedores = inputContenedor1 + inputContenedor2+ inputContenedor3;
 
-    if (sumaContenedores >= 10) {
+    if (sumaContenedores > 10) {
         respuesta.innerHTML = "Llevas demasiados stickers";
         console.log("Entramos en mayor o igual a 10");
     } else {
