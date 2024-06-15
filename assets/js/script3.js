@@ -1,11 +1,11 @@
-botonIngresar = document.querySelector("#boton");
+const botonIngresar = document.querySelector("#boton");
 
 botonIngresar.addEventListener('click', function() {
-    let inputContenedor1 = document.getElementById('valores1').value;
-    let inputContenedor2 = document.getElementById('valores2').value;
-    let inputContenedor3 = document.getElementById('valores3').value;
+    const inputContenedor1 = document.getElementById('valores1').value;
+    const inputContenedor2 = document.getElementById('valores2').value;
+    const inputContenedor3 = document.getElementById('valores3').value;
 
-    let respuesta = document.querySelector("#respuesta");
+    const respuesta = document.querySelector("#respuesta");
 
     let concatenarNumeros = inputContenedor1 + inputContenedor2+ inputContenedor3;
 

@@ -1,11 +1,11 @@
-botonVerificar = document.querySelector("#botonVerificar");
+const botonVerificar = document.querySelector("#botonVerificar");
 
 botonVerificar.addEventListener('click', function() {
-    let inputContenedor1 = document.getElementById('cantidadSticker1').valueAsNumber;
-    let inputContenedor2 = document.getElementById('cantidadSticker2').valueAsNumber;
-    let inputContenedor3 = document.getElementById('cantidadSticker3').valueAsNumber;
+    const inputContenedor1 = document.getElementById('cantidadSticker1').valueAsNumber;
+    const inputContenedor2 = document.getElementById('cantidadSticker2').valueAsNumber;
+    const inputContenedor3 = document.getElementById('cantidadSticker3').valueAsNumber;
 
-    let respuesta = document.querySelector("#parrafoRespuesta");
+    const respuesta = document.querySelector("#parrafoRespuesta");
 
     let sumaContenedores = inputContenedor1 + inputContenedor2+ inputContenedor3;
 

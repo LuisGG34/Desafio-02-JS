@@ -1,4 +1,4 @@
-imagen = document.querySelector("#imagen");
+const imagen = document.querySelector("#imagen");
 
 imagen.addEventListener('click', function() {
     if (this.style.border) {
